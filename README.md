@@ -95,10 +95,4 @@ cat /root/root.txt
 
 ![Root Flag](img/root_flag.png)
 
----
 
-## Notas
-
-- El IDOR en `/data/{id}` es el vector principal — sin validación server-side sobre a quién pertenece cada captura.
-- FTP transmite credenciales en texto claro. La reutilización de contraseñas entre servicios amplió el impacto.
-- `cap_setuid` en un intérprete como Python es escalada trivial. Referencia: [GTFOBins](https://gtfobins.github.io/gtfobins/python/#capabilities)
