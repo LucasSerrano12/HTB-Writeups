@@ -1,13 +1,5 @@
 # Cap — HackTheBox
 
-| Campo | Detalle |
-|---|---|
-| **OS** | Linux |
-| **Dificultad** | Easy |
-| **IP** | 10.129.12.134 |
-| **Fecha** | 22-03-2026 |
-| **Estado** | ✅ Pwned |
-
 **Cadena de ataque:** IDOR → credenciales FTP en texto claro → SSH → Linux Capabilities → root
 
 ---
@@ -94,5 +86,4 @@ cat /root/root.txt
 ```
 
 ![Root Flag](img/root_flag.png)
-
 
